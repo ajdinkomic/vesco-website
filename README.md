@@ -14,4 +14,4 @@ Website is optimized for offline use also.
 
 **Tools and technologies used:** HTML5, CSS3, JavaScript, jQuery, Bootstrap
 
-**Landing page design:** [Irfan Dayan](https://www.udemy.com/course/build-responsive-website-using-html5-css3-js-and-bootstrap/)
+**Landing page design:** [Irfan Dayan](https://www.udemy.com/course/build-modern-responsive-website-with-html5-css3-bootstrap/)
