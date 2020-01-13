@@ -10,8 +10,7 @@ College Web development project. This is a landing page for a fictional company 
 
 ### Information
 **Details:** Website is static, it's made using HTML5, CSS3, and JavaScript, and its purpose is to provide information about a fictional company and display company work.
-Website is optimized for offline use also.
 
-**Tools and technologies used:** HTML5, CSS3, JavaScript, jQuery, Bootstrap
+**Tools and technologies used:** HTML5, CSS3, JavaScript, jQuery, Bootstrap.
 
 **Landing page design:** [Irfan Dayan](https://www.udemy.com/course/build-modern-responsive-website-with-html5-css3-bootstrap/)
