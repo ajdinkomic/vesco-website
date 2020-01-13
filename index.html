@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description"
+        content="Moderna web stranica napravljena koristeći html5, css3, jQuery i Bootstrap framework">
+    <meta name="keywords"
+        content="HTML5, CSS3, jQuery, Bootstrap, Web Design, Web Development, Responsive website, Modern website">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Vesco | HTML, CSS, JS</title>
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&amp;subset=latin-ext"
+        rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="css/fontawesome/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate/animate.min.css">
+
+    <!-- Magnific Popup CSS -->
+    <link rel="stylesheet" href="css/magnific/magnific-popup.css">
+
+    <!-- Owl CSS -->
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="65">
+
+    <!-- NAVIGATION -->
+    <header>
+        <nav class="navbar navbar-fixed-top">
+            <div class="container-fluid">
+
+                <div class="course-nav-wrapper">
+
+                    <div class="navbar-header">
+
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#course-menu">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="#home" class="navbar-brand">
+                            <img src="images/logo.png" alt="logo">
+                        </a>
+                    </div>
+
+                    <div id="course-menu" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a class="smooth-scroll" href="#home">Početna</a>
+                            </li>
+                            <li>
+                                <a class="smooth-scroll" href="#services">Usluge</a>
+                            </li>
+                            <li>
+                                <a class="smooth-scroll" href="#about">O nama</a>
+                            </li>
+                            <li>
+                                <a class="smooth-scroll" href="#work">Naš rad</a>
+                            </li>
+                            <li>
+                                <a class="smooth-scroll" href="#team">Tim</a>
+                            </li>
+                            <li>
+                                <a class="smooth-scroll" href="#testimonials">Izjave</a>
+                            </li>
+                            <li>
+                                <a class="smooth-scroll" href="#pricing">Cijena</a>
+                            </li>
+                            <li>
+                                <a class="smooth-scroll" href="#stats">Rezultati</a>
+                            </li>
+                            <li>
+                                <a class="smooth-scroll" href="#clients">Klijenti</a>
+                            </li>
+                            <li>
+                                <a class="smooth-scroll" href="#contact">Kontakt</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- POČETNA -->
+    <section id="home">
+        <div class="overlay">
+            <div class="bg-parallax animated fadeIn" id="home-cover">
+                <div id="home-content-box">
+                    <div id="home-content-box-inner" class="text-center">
+                        <div id="home-heading" class="animated zoomIn">
+                            <h3>Dobrodošli na modernu responzivnu web stranicu</h3>
+                            <p>HTML, CSS, JavaScript</h2>
+                        </div>
+                        <div id="home-btn">
+                            <a href="#work" class="btn btn-lg animated zoomIn btn-general btn-white smooth-scroll"
+                                role="button" title="Pogledajte a+nas rad">Pogledajte naš rad</a>
+                        </div>
+                        <i class="fa fa-2x fa-chevron-down" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- USLUGE -->
+    <section id="services">
+        <div class="content-box">
+            <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                <h3> Usluge </h3>
+                <div class="content-title-underline"></div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                            <div class="service-item-icon">
+                                <i class="fa fa-paint-brush fa-3x"></i>
+                            </div>
+                            <div class="service-item-title">
+                                <h3> Web Dizajn </h3>
+                            </div>
+                            <div class="service-item-description">
+                                <p> Dizajniramo moderne i atraktivne web i mobilne aplikacije. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                            <div class="service-item-icon">
+                                <i class="fa fa-laptop fa-3x"></i>
+                            </div>
+                            <div class="service-item-title">
+                                <h3> Web Development </h3>
+                            </div>
+                            <div class="service-item-description">
+                                <p> Iskusni programeri pretvaraju ideju o dizajnu u djelo. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                            <div class="service-item-icon">
+                                <i class="fa fa-tablet fa-3x"></i>
+                            </div>
+                            <div class="service-item-title">
+                                <h3> Mobilne Aplikacije </h3>
+                            </div>
+                            <div class="service-item-description">
+                                <p> Nudimo web aplikacije za iOS, Android i Windows mobilne uređaje. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                            <div class="service-item-icon">
+                                <i class="fa fa-search fa-3x"></i>
+                            </div>
+                            <div class="service-item-title">
+                                <h3> SEO Optimizacija </h3>
+                            </div>
+                            <div class="service-item-description">
+                                <p> Naši projekti su optimizirani, privlačni i lijepo uređeni. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                            <div class="service-item-icon">
+                                <i class="fa fa-pencil-square-o fa-3x"></i>
+                            </div>
+                            <div class="service-item-title">
+                                <h3> UX Dizajn </h3>
+                            </div>
+                            <div class="service-item-description">
+                                <p> Osiguravamo izuzetno korisničko iskustvo. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-item wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                            <div class="service-item-icon">
+                                <i class="fa fa-life-ring fa-3x"></i>
+                            </div>
+                            <div class="service-item-title">
+                                <h3> Podrška </h3>
+                            </div>
+                            <div class="service-item-description">
+                                <p> Održavamo 24/7 kontakt sa našim klijentima. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- O NAMA -->
+    <section id="about">
+        <div id="about-bg-diagonal" class="bg-parallax"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div id="about-content-box">
+                        <div id="about-content-box-outer">
+                            <div id="about-content-box-inner">
+                                <div class="content-title wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <h3> O NAMA </h3>
+                                    <div class="content-title-underline"></div>
+                                </div>
+                                <div id="about-description" class="wow animated fadeInDown" data-wow-duration="1s"
+                                    data-wow-delay=".5s">
+                                    <p>Kompanija Vesco je osnovana 2018. godine u Bihaću, BiH.
+                                        Za kratko vrijeme se razvila u vodeću kompaniju u oblasti
+                                        razvoja web i mobilnih aplikacija na Unsko-sanskom kantonu.
+                                        Danas imamo veliki tim stručnjaka iz raznih područja IT-a,
+                                        koji svakodnevno rade na razvoju i unaprijeđivanju naših
+                                        prepoznatljivih proizvoda. Pogledajte naš rad, kao i izjave zadovoljnih
+                                        klijenata, i uvjerite se zašto smo najbolji.
+                                    </p>
+                                </div>
+                                <div id="about-btn">
+                                    <a href="#work"
+                                        class="btn btn-lg btn-general btn-blue wow animated fadeInUp smooth-scroll"
+                                        title="View Work" data-wow-duration="1s" data-wow-delay=".5s">Naš rad</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NAŠ RAD -->
+    <section id="work">
+        <div class="content-box">
+            <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                <h3> Naš Rad </h3>
+                <div class="content-title-underline"></div>
+            </div>
+            <div class="container-fluid">
+                <div class="row no-gutters wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                    <div class="col-md-3 col-sm-4">
+                        <div class="img-wrapper">
+                            <a href="images/work/1.jpg" title="Opis posla">
+                                <img src="images/work/1.jpg" alt="Work" class="img-responsive">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="img-wrapper">
+                            <a href="images/work/2.jpg" title="Opis posla">
+                                <img src="images/work/2.jpg" alt="Work" class="img-responsive">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="img-wrapper">
+                            <a href="images/work/3.jpg" title="Opis posla">
+                                <img src="images/work/3.jpg" alt="Work" class="img-responsive">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="img-wrapper">
+                            <a href="images/work/4.jpg" title="Opis posla">
+                                <img src="images/work/4.jpg" alt="Work" class="img-responsive">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="img-wrapper">
+                            <a href="images/work/5.jpg" title="Opis posla">
+                                <img src="images/work/5.jpg" alt="Work" class="img-responsive">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="img-wrapper">
+                            <a href="images/work/6.jpg" title="Opis posla">
+                                <img src="images/work/6.jpg" alt="Work" class="img-responsive">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="img-wrapper">
+                            <a href="images/work/7.jpg" title="Opis posla">
+                                <img src="images/work/7.jpg" alt="Work" class="img-responsive">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="img-wrapper">
+                            <a href="images/work/8.jpg" title="Opis posla">
+                                <img src="images/work/8.jpg" alt="Work" class="img-responsive">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TIM -->
+    <section id="team">
+        <div class="content-box">
+            <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                <h3> Naš Tim </h3>
+                <div class="content-title-underline"></div>
+            </div>
+            <div class="container">
+                <div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                    <div class="col-md-12">
+                        <div id="team-members" class="owl-carousel owl-theme">
+                            <div class="team-member">
+                                <img src="images/team/team-1.jpg" class="img-responsive" alt="Team Member">
+                                <div class="team-member-info text-center">
+                                    <h4 class="team-member-name">Daniel Watrous</h4>
+                                    <h4 class="team-member-designation">Direktor</h4>
+                                    <ul class="social-list">
+                                        <li>
+                                            <a href="#" class="social-icon icon-gray">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="social-icon icon-gray">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="social-icon icon-gray">
+                                                <i class="fa fa-google-plus"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-member">
+                                <img src="images/team/team-2.jpg" class="img-responsive" alt="Team Member">
+                                <div class="team-member-info text-center">
+                                    <h4 class="team-member-name">Sara Smith</h4>
+                                    <h4 class="team-member-designation">Projekt Menadžer</h4>
+                                    <ul class="social-list">
+                                        <li>
+                                            <a href="#" class="social-icon icon-gray">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="social-icon icon-gray">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="social-icon icon-gray">
+                                                <i class="fa fa-google-plus"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-member">
+                                <img src="images/team/team-3.jpg" class="img-responsive" alt="Team Member">
+                                <div class="team-member-info text-center">
+                                    <h4 class="team-member-name">Steve Mike</h4>
+                                    <h4 class="team-member-designation">iOS Developer</h4>
+                                    <ul class="social-list">
+                                        <li>
+                                            <a href="#" class="social-icon icon-gray">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="social-icon icon-gray">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="social-icon icon-gray">
+                                                <i class="fa fa-google-plus"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-member">
+                                <img src="images/team/team-4.jpg" class="img-responsive" alt="Team Member">
+                                <div class="team-member-info text-center">
+                                    <h4 class="team-member-name">Robert Hinay</h4>
+                                    <h4 class="team-member-designation">Web Dizajner</h4>
+                                    <ul class="social-list">
+                                        <li>
+                                            <a href="#" class="social-icon icon-gray">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="social-icon icon-gray">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="social-icon icon-gray">
+                                                <i class="fa fa-google-plus"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-member">
+                                <img src="images/team/team-5.jpg" class="img-responsive" alt="Team Member">
+                                <div class="team-member-info text-center">
+                                    <h4 class="team-member-name">Mike Tera</h4>
+                                    <h4 class="team-member-designation">Prodaja</h4>
+                                    <ul class="social-list">
+                                        <li>
+                                            <a href="#" class="social-icon icon-gray">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="social-icon icon-gray">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="social-icon icon-gray">
+                                                <i class="fa fa-google-plus"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- IZJAVE -->
+    <section id="testimonials">
+        <div class="bg-parallax" id="testimonials-cover">
+            <div class="content-box">
+                <div class="content-title content-title-white wow animated fadeInDown" data-wow-duration="1s"
+                    data-wow-delay=".5s">
+                    <h3> Šta naši klijenti kažu </h3>
+                    <div class="content-title-underline"></div>
+                </div>
+                <div class="container">
+                    <div class="row wow animated bounceInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div class="col-md-12">
+                            <div id="customers-testimonials" class="owl-carousel owl-theme text-center">
+                                <div class="testimonial">
+                                    <img src="images/client/client-1.jpg" class="img-responsive img-circle"
+                                        alt="testimonial">
+                                    <blockquote class="text-center">
+                                        <p>
+                                            Sa kompanijom Vesco sam radio preko zajedničkog projekta. Tu sam upoznao
+                                            svoje sadašnje
+                                            partnere i prijatelje.
+                                        </p>
+                                    </blockquote>
+                                    <div class="testimonial-author">
+                                        <p>
+                                            <strong>Daniel Watrous</strong>
+                                            <span>Direktor - Google</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="testimonial">
+                                    <img src="images/client/client-2.jpg" class="img-responsive img-circle"
+                                        alt="testimonial">
+                                    <blockquote class="text-center">
+                                        <p>
+                                            Suradnja sa Vesco kompanijom je za mene bilo odlično iskustvo. Tim je
+                                            visoko
+                                            stručan i profesionalan.
+                                        </p>
+                                    </blockquote>
+                                    <div class="testimonial-author">
+                                        <p>
+                                            <strong>Johan Mathew</strong>
+                                            <span>Projekt menadžer - Yahoo</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="testimonial">
+                                    <img src="images/client/client-3.jpg" class="img-responsive img-circle"
+                                        alt="testimonial">
+                                    <blockquote class="text-center">
+                                        <p>
+                                            Visoko profesionalna i odgovorna ekipa IT stručnjaka. Sve preporuke za
+                                            suradnju.
+                                        </p>
+                                    </blockquote>
+                                    <div class="testimonial-author">
+                                        <p>
+                                            <strong>Sara Smith</strong>
+                                            <span>PR - Amazon</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CIJENA -->
+    <section id="pricing">
+        <div class="content-box">
+            <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                <h3> Cijena </h3>
+                <div class="content-title-underline"></div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 wow animated zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div class="pricing-box text-center">
+                            <h4 class="pricing-title">Osnovno</h4>
+                            <h3 class="pricing-value">49<sup>KM</sup>
+                            </h3>
+                            <ul class="pricing-spec">
+                                <li>
+                                    <p>500 EMAILOVA</p>
+                                </li>
+                                <li>
+                                    <p>5GB MEMORIJE</p>
+                                </li>
+                                <li>
+                                    <p>SSL CERTIFIKAT</p>
+                                </li>
+                                <li>
+                                    <p>NEOGRANIČEN BROJ DOMENA</p>
+                                </li>
+                            </ul>
+                            <div class="pricing-btn">
+                                <a href="#" class="btn btn-lg btn-general btn-blue" role="button">KUPI</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow animated bounceInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div class="pricing-box pricing-box-lg text-center">
+                            <h4 class="pricing-title">NAPREDNO</h4>
+                            <h3 class="pricing-value">89<sup>KM</sup>
+                            </h3>
+                            <ul class="pricing-spec">
+                                <li>
+                                    <p>2000 EMAILOVA</p>
+                                </li>
+                                <li>
+                                    <p>25GB MEMORIJE</p>
+                                </li>
+                                <li>
+                                    <p>SSL CERTIFIKAT</p>
+                                </li>
+                                <li>
+                                    <p>NEOGRANIČEN BROJ DOMENA</p>
+                                </li>
+                            </ul>
+                            <div class="pricing-btn">
+                                <a href="#" class="btn btn-lg btn-general btn-white" role="button">KUPI</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 wow animated zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div class="pricing-box text-center">
+                            <h4 class="pricing-title">STANDARDNO</h4>
+                            <h3 class="pricing-value">69<sup>KM</sup>
+                            </h3>
+                            <ul class="pricing-spec">
+                                <li>
+                                    <p>1500 EMAILOVA</p>
+                                </li>
+                                <li>
+                                    <p>15GB MEMORIJE</p>
+                                </li>
+                                <li>
+                                    <p>SSL CERTIFIKAT</p>
+                                </li>
+                                <li>
+                                    <p>NEOGRANIČEN BROJ DOMENA</p>
+                                </li>
+                            </ul>
+                            <div class="pricing-btn">
+                                <a href="#" class="btn btn-lg btn-general btn-blue" role="button">KUPI</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- REZULTATI -->
+    <section id="stats">
+        <div class="bg-parallax" id="stats-cover">
+            <div class="content-box">
+                <div class="content-title content-title-white wow animated fadeInDown" data-wow-duration="1s"
+                    data-wow-delay=".5s">
+                    <h3>KONSTANTNO NAPREDUJEMO </h3>
+                    <div class="content-title-underline"></div>
+                </div>
+                <div class="container">
+                    <div class="row wow text-center animated bounceInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stats-item">
+                                <i class="fa fa-cloud-download fa-5x"></i>
+                                <h2><span class="counter">1590</span><span>+</span></h2>
+                                <p>Preuzimanja</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stats-item">
+                                <i class="fa fa-star-o fa-5x"></i>
+                                <h2><span class="counter">3500</span><span>+</span></h2>
+                                <p>Nagrada</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stats-item">
+                                <i class="fa fa-heart-o fa-5x"></i>
+                                <h2> <span class="counter">1199</span><span>+</span></h2>
+                                <p>Lajkova</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stats-item">
+                                <i class="fa fa-check fa-5x"></i>
+                                <h2><span class="counter">2200</span><span>+</span></h2>
+                                <p>Preporučeno</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- KLIJENTI -->
+    <section id="clients">
+        <div class="content-box">
+            <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                <h3>KLIJENTI </h3>
+                <div class="content-title-underline"></div>
+            </div>
+            <div class="container">
+                <div class="row wow text-center animated bounceInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+                    <div class="col-md-12">
+                        <div id="clients-list" class="owl-carousel owl-theme">
+                            <div class="client">
+                                <img src="images/client/logos/logo-1.jpg" alt="Client" class="img-responsive">
+                            </div>
+                            <div class="client">
+                                <img src="images/client/logos/logo-2.jpg" alt="Client" class="img-responsive">
+                            </div>
+                            <div class="client">
+                                <img src="images/client/logos/logo-3.jpg" alt="Client" class="img-responsive">
+                            </div>
+                            <div class="client">
+                                <img src="images/client/logos/logo-4.jpg" alt="Client" class="img-responsive">
+                            </div>
+                            <div class="client">
+                                <img src="images/client/logos/logo-5.jpg" alt="Client" class="img-responsive">
+                            </div>
+                            <div class="client">
+                                <img src="images/client/logos/logo-6.jpg" alt="Client" class="img-responsive">
+                            </div>
+                            <div class="client">
+                                <img src="images/client/logos/logo-7.jpg" alt="Client" class="img-responsive">
+                            </div>
+                            <div class="client">
+                                <img src="images/client/logos/logo-8.jpg" alt="Client" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <!-- KONTAKT -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="contact-left">
+                            <h3>VESCO</h3>
+                            <p>Vjerujemo u
+                                <strong>Jednostavan</strong>,
+                                <strong>Čist</strong> i
+                                <strong>Moderan</strong> dizajn sa responzivnim pristupom. Istražite sjajan rad naše
+                                kompanije.
+                            </p>
+                            <div id="contact-info">
+                                <address>
+                                    <strong>Sjedište:</strong>
+                                    <br>
+                                    <p>Dr. Irfana Ljubijankića bb
+                                        <br>Bihać 77000, BiH</p>
+                                </address>
+                                <div id="phone-fax-email">
+                                    <p>
+                                        <strong>Tel:</strong>
+                                        <span>+387 37 123 456 </span>
+                                        <br>
+
+                                        <strong>Fax:</strong>
+                                        <span>+387 37 123 457 </span>
+                                        <br>
+
+                                        <strong>Email:</strong>
+                                        <span>info@vesco.com </span>
+                                        <br>
+                                    </p>
+                                </div>
+                            </div>
+                            <ul class="social-list">
+                                <li><a href="#" class="social-icon icon-white"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#" class="social-icon icon-white"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#" class="social-icon icon-white"><i class="fa fa-youtube-play"></i></a>
+                                </li>
+                                <li><a href="#" class="social-icon icon-white"><i class="fa fa-google-plus"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="contact-right">
+                            <h3>Kontaktirajte nas</h3>
+                            <form action="#">
+                                <input type="text" name="full-name" placeholder="Ime i prezime" class="form-control">
+                                <input type="text" name="email" placeholder="Email Adresa" class="form-control">
+                                <textarea name="message" class="form-control" placeholder="Poruka..."
+                                    rows="5"></textarea>
+                                <div id="send-btn"><a href="#" role="button"
+                                        class="btn btn-lg btn-general btn-white">POŠALJI</a></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- COPYRIGHT -->
+        <div id="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="footer-copyrights">
+                            <p>Copyrights &copy; 2017 Vesco Inc. Sva prava pridržana.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 hidden-sm hidden-xs">
+                        <div id="footer-menu">
+                            <ul>
+                                <li><a class="smooth-scroll" href="#home">Početna</a>/</li>
+                                <li><a class="smooth-scroll" href="#services">Usluge</a>/</li>
+                                <li><a class="smooth-scroll" href="#work">Naš Rad</a>/</li>
+                                <li><a class="smooth-scroll" href="#team">Tim</a>/</li>
+                                <li><a class="smooth-scroll" href="#testimonials">Izjave</a>/</li>
+                                <li><a class="smooth-scroll" href="#pricing">Cijena</a>/</li>
+                                <li><a class="smooth-scroll" href="#stats">Rezultati</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="developed-by">Developed by <a id="developer-link" href="https://github.com/ajdinkomic" target="_blank">Ajdin Komić</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#home" id="back-to-top" class="btn btn-sm btn-blue btn-back-to-top smooth-scroll hidden-sm hidden-xs"
+            title="home" role="button"> <i class="fa fa-angle-up"></i> </a>
+    </footer>
+
+
+
+
+    <!-- SKRIPTE -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Bootstrap 3 -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+
+    <!-- WOW JS -->
+    <script src="js/wow/wow.min.js"></script>
+
+    <!-- Magnific Popup JS -->
+    <script src="js/magnific/magnific-popup.min.js"></script>
+
+    <!-- Owl JS -->
+    <script src="js/owl/owl.carousel.min.js"></script>
+
+    <!-- Counter -->
+    <script src="js/counter/waypoints.min.js"></script>
+    <script src="js/counter/jquery.counterup.min.js"></script>
+
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+
+    <!-- Custom JS  -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
